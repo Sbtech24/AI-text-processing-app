@@ -9,9 +9,13 @@ function App() {
   
   return (
     <>
-      <h1>Hi</h1>
+    <div className="container">
+
+    
+      <h1>AI powered text processing app </h1>
       <LanguageDetector language={language} setLanguage={setLanguage} text={text} setText={setText}/>
       <Translation language={language} setLanguage={setLanguage} setText={setText} text={text} />
+    </div>
     </>
   )
 }

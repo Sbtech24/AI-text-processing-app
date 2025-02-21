@@ -80,7 +80,7 @@ const LanguageDetector = ({language,setText,text,setLanguage}:PropType) => {
 
   return (
     <div>
-      <h2>Language Detector</h2>
+      <h2>Language Detector And Translator</h2>
       <textarea
         placeholder="Type text here..."
         value={text}
